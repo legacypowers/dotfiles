@@ -129,4 +129,6 @@ alias gqrx-scan-uhf='gqrx-scanner -h -m sweep -b 384000000 -e 524000000'
 #youtube-dl standard video download
 alias ytdl="youtube-dl -f mp4 --add-metadata -i"
 #youtube-dl download video as mp3
-alias yta="youtube-dl -i --extract-audio --audio-format-mp3 --audio-auality 0"
+alias yta="youtube-dl -i -x --audio-format mp3 --audio-auality 0"
+#control rgb led
+alias rgbctl="rgbledctlapp 192.168.1.171"
